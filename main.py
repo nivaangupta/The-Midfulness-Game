@@ -1,4 +1,5 @@
 import pygame
+import requests
 from themindfulnessgame.constants import *
 from themindfulnessgame.board import Board
 from themindfulnessgame.player import Player
@@ -8,6 +9,7 @@ from themindfulnessgame.questiondata import QuestionBrain
 FPS = 60        # GLOBAL VARIABLE for game simulation
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))      # GLOBAL VARIABLES for game design
 pygame.display.set_caption('THE MINDFULNESS GAME')
+DATA = requests.get("https://api.npoint.io/ee001056f289895ebb05").json()
 
 
 def main():

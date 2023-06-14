@@ -26,63 +26,6 @@ DICE5 = pygame.transform.scale(pygame.image.load('assets/5.png'), (75, 75))
 DICE6 = pygame.transform.scale(pygame.image.load('assets/6.png'), (75, 75))
 ROLL = pygame.transform.scale(pygame.image.load('assets/roll.png'), (200, 75))
 
-DATA = {
-    'red':
-        [
-            {
-                'Question': "You just lost a running race with your friend Harry in your school's sports day event, what will you do?",
-                'Options': ['Train harder to beat harry next year', 'Seek inspiration from harry & get better', 'Fight with harry as he defeated you'],
-                'Points': [0, 10, -10]
-            },
-            {
-                'Question': "Your friend scored more marks on a test, later revealing that he cheated on that test to obtain a higher score than you",
-                'Options': ['Complain the professor for wrong-doings', 'Never talk to that friend', "Don't compare your scores & move on"],
-                'Points': [0, -10, 10]
-            },
-            {
-                'Question': "Your friends dont want to talk to you because you dont drink alcohol and smoke cigarettes",
-                'Options': ['Try alcohol & smoking to fit in', 'Accept that they were never your friends', 'Request them to include you inspite'],
-                'Points': [0, 10, -10]
-            },
-        ],
-    'green':
-        [
-            {
-                'Question': "You won the quiz despite a lot of your classmates believing that you cant",
-                'Options': ['Let them know they were wrong', 'self-affirm that nobody can define your capabilities', 'Sledge your classmates as they were wrong'],
-                'Points': [0, 10, -10]
-            },
-            {
-                'Question': "Your exams got cancelled and you have plenty of time to do things that you want, what would you do?",
-                'Options': ['Make a routine for slef-development and follow', 'Watch informational documentaries on Netflix', 'Scroll through social media and tiktok'],
-                'Points': [10, 0, -10]
-            },
-            {
-                'Question': "You are living in a hotel for a month, what will you prefer having in the breakfast buffet regularly?",
-                'Options': ['Chocolate Pancakes with Mapel Syrup', 'Breakfast cereals like cornflakes', 'Oatmeal along with eggs, veggies and fruit'],
-                'Points': [-10, 0, 10]
-            },
-        ],
-    'blue':
-        [
-            {
-                'Question': "Do any one of the below activities for 10 minutes for a positive mental health :)",
-                'Options': ['Meditate while focusing on a thought', 'practice breath regulation yoga', "Show gratitude towards things you're thankful for"],
-                'Points': [10, 10, 10]
-            },
-            {
-                'Question': "Do any one of the below activities for 10 minutes for a positive mental health :)",
-                'Options': ['Think of 5 positive things in life', 'Reach out & appreciate a close friend', 'Perform light excercise'],
-                'Points': [10, 10, 10]
-            },
-            {
-                'Question': "Do any one of the below activities for 10 minutes for a positive mental health :)",
-                'Options': ['Schedule a time for relaxation today', 'Pay attention to present moment & thoughts', 'Eat a healthy meal'],
-                'Points': [10, 10, 10]
-            },
-        ],
-}
-
 WELCOME_MESSAGE = "Welcome to the mindfulness game"
 RED_MESSAGE = "Red Tile - Negative experience"
 GREEN_MESSAGE = "Green Tile - Positive experience"
